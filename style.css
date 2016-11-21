@@ -7,7 +7,7 @@
 
 /* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
 
-
+/* comment here */
 /* basic elements */
 html {
 	margin: 0;
@@ -222,52 +222,46 @@ footer a:link:hover {
 
 .sidebar {
 	margin-left: 600px; 
-	position: absolute; 
 	top: 0; 
+  position: fixed; 
 	right: 0;
-	background-color: #E2E7E5;
+	background-color: #E7E9E8;
 	padding: 15px;
-	position: fixed;
+	top: 20px;
   border-radius: 25px;
 	}
 .sidebar .wrapper { 
 	font: 10px Courier, monospace; 
-	background: transparent url(paper-bg.jpg) top left repeat-y; 
 	padding: 10px; 
-	margin-top: 150px; 
 	width: 130px; 
 	}
-.sidebar h3.select { 
-	background: transparent url(h3.gif) no-repeat top left; 
-	margin: 10px 0 5px 0; 
+.sidebar h3.select {  
+	margin: 0px 10px 20px 0; 
 	width: 97px; 
 	height: 16px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
 	}
-.sidebar h3.archives { 
-	background: transparent url(h5.gif) no-repeat top left; 
+.sidebar h3.archives {  
 	margin: 25px 0 5px 0; 
 	width:57px; 
 	height: 14px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
 	}
 .sidebar h3.resources { 
-	background: transparent url(h6.gif) no-repeat top left; 
 	margin: 25px 0 5px 0; 
-	width:63px; 
-	height: 10px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
+	width: 63px; 
+	height: 10px;
 	}
-
+.select {
+	font: 20px Courier, monospace;
+	font-weight: bold;
+}
+.archives {
+	font: 20px Courier, monospace;
+	font-weight: bold;
+}
+.resources {
+	font: 20px Courier, monospace;
+	font-weight: bold;
+}
 
 .sidebar ul {
 	margin: 0;
@@ -275,7 +269,6 @@ footer a:link:hover {
 	}
 .sidebar li {
 	line-height: 1.3em; 
-	background: transparent url(cr1.gif) no-repeat top center; 
 	display: block; 
 	padding-top: 5px; 
 	margin-bottom: 5px;
